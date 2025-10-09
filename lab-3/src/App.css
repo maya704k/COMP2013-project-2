@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ColorBox {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.ColorBoxesContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  justify-content: center;
+  gap: 5px;
+}
+
